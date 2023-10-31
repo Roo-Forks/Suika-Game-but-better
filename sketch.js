@@ -32,7 +32,7 @@ const fruitList = new Map([["cherry", 0],
 var engine = Engine.create(),
     world = engine.world;
 
-engine.gravity.y = 0.75;
+engine.gravity.y = 1;
 
 // create renderer
 var render = Render.create({
